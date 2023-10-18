@@ -1,0 +1,76 @@
+.zzz {
+  background-color: gainsboro;
+  position: fixed;
+  right: 0;
+  width: 16vw;
+  top: 55px;
+  padding: 20px;
+  height: 100vh;
+
+  display: none;
+
+  box-shadow: -10px 0px 10px gainsboro;
+}
+
+@media (min-width: 850px) {
+  .zzz {
+    display: block;
+  }
+}
+
+@media (min-width: 900px) {
+  .zzz {
+    width: 18vw;
+  }
+}
+
+@media (min-width: 950px) {
+  .zzz {
+    width: 20vw;
+  }
+}
+
+@media (min-width: 1000px) {
+  .zzz {
+    width: 21vw;
+  }
+}
+
+@media (min-width: 1100px) {
+  .zzz {
+    width: 23vw;
+  }
+}
+
+@media (min-width: 1500px) {
+  .zzz {
+    transition: all 0s;
+    width: 28vw;
+    -webkit-transition: all 0s;
+    -moz-transition: all 0s;
+    -ms-transition: all 0s;
+    -o-transition: all 0s;
+  }
+}
+
+@media (min-width: 1700px) {
+  .zzz {
+    transition: all 0s;
+    width: 23vw;
+    -webkit-transition: all 0s;
+    -moz-transition: all 0s;
+    -ms-transition: all 0s;
+    -o-transition: all 0s;
+  }
+}
+
+@media (min-width: 2000px) {
+  .zzz {
+    transition: all 0s;
+    width: 20vw;
+    -webkit-transition: all 0s;
+    -moz-transition: all 0s;
+    -ms-transition: all 0s;
+    -o-transition: all 0s;
+  }
+}

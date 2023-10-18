@@ -1,0 +1,29 @@
+* {
+  padding: 0%;
+  margin: 0;
+  font-family: "roboto", sans-serif, monospace;
+  box-sizing: border-box;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("./fonts/Roboto.ttf");
+}
+
+@font-face {
+  font-family: "breeserif";
+  src: url("./fonts/BreeSerif.ttf");
+}
+
+body {
+  background: #969696;
+  background: -webkit-linear-gradient(0deg, #646464 0%, #bbbbbb 100%);
+  background: linear-gradient(0deg, #646464 0%, #bbbbbb 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+}
