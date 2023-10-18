@@ -20,14 +20,13 @@ const Navbar = () => {
           </div>
         </section>
         <section className="nav_icons">
+          <BiMessage size={30} color="orange" />
           <Link to="/">
             <BiHome size={30} color="blue" />
           </Link>
-
           <Link to="/profile">
             <div className="x"></div>
           </Link>
-          <BiMessage size={30} color="orange" />
         </section>
       </section>
     </nav>
