@@ -1,11 +1,10 @@
-
 import "./home.css";
 import { BiImage, BiVideo, BiHeart, BiComment, BiShare } from "react-icons/bi";
 
 const Home = () => {
   return (
     <>
-      <section className="container_general">
+      <section className="containers_general">
         <section className="news_container_general">
           <section className="news_container">
             <div className="z"></div>

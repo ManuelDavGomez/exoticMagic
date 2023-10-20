@@ -25,7 +25,7 @@ const Navbar = () => {
             <BiHome size={30} color="blue" />
           </Link>
           <Link to="/profile">
-            <div className="x"></div>
+            <div className="xx"></div>
           </Link>
         </section>
       </section>

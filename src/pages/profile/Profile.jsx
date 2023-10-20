@@ -1,4 +1,4 @@
-import styles from "./profile.module.css";
+import "./profile.css";
 import banner from "../../img/banner.jpg";
 import tigre from "../../img/tigre.jpg";
 import { BiHeart, BiComment, BiShare } from "react-icons/bi";
@@ -6,18 +6,18 @@ import { BiHeart, BiComment, BiShare } from "react-icons/bi";
 const profile = () => {
   return (
     <>
-      <section className={styles.banner_container}>
-        <img src={banner} alt="banner" />
+      <section className="banner_container">
+        <img className="banner_img" src={banner} alt="banner" />
       </section>
 
-      <section className={styles.perfil_container}>
+      <section className="perfil_container">
         <div>
           <img src={tigre} alt="" />
         </div>
       </section>
 
-      <section className={styles.info_container_general}>
-        <section className={styles.info_container}>
+      <section className="info_container_general">
+        <section className="info_container">
           <h1>Ligre el tigre</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure velit
@@ -29,17 +29,17 @@ const profile = () => {
         </section>
       </section>
 
-      <section className={styles.container_general}>
-        <section className={styles.publicacion_container_general}>
-          <section className={styles.publicacion_container}>
-            <div className={styles.y}></div>
-            <section className={styles.names_container}>
-              <p className={styles.name_publicacion}>Ligre el leon</p>
-              <p className={styles.hora_publicacion}>Hace 16 horas</p>
+      <section className="container_general">
+        <section className="publicacion_container_general">
+          <section className="publicacion_container">
+            <div className="y"></div>
+            <section className="names_container">
+              <p className="name_publicacion">Ligre el leon</p>
+              <p className="hora_publicacion">Hace 16 horas</p>
             </section>
           </section>
 
-          <section className={styles.contenido_container}>
+          <section className=" contenido_container">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
               sequi, omnis, assumenda explicabo, accusantium iure impedit
@@ -48,32 +48,32 @@ const profile = () => {
             </p>
           </section>
 
-          <section className={styles.publicacion_icons}>
-            <article className={styles.publi_icons_text}>
+          <section className=" publicacion_icons">
+            <article className=" publi_icons_text">
               <BiHeart size={24} />
               <p>0 likes</p>
             </article>
-            <article className={styles.publi_icons_text}>
+            <article className=" publi_icons_text">
               <BiComment size={24} />
               <p>Comentarios</p>
             </article>
-            <article className={styles.publi_icons_text}>
+            <article className=" publi_icons_text">
               <BiShare size={24} />
               <p>Compartir</p>
             </article>
           </section>
         </section>
 
-        <section className={styles.publicacion_container_general}>
-          <section className={styles.publicacion_container}>
-            <div className={styles.y}></div>
-            <section className={styles.names_container}>
-              <p className={styles.name_publicacion}>Ligre el leon</p>
-              <p className={styles.hora_publicacion}>Hace 16 horas</p>
+        <section className=" publicacion_container_general">
+          <section className=" publicacion_container">
+            <div className=" y"></div>
+            <section className=" names_container">
+              <p className=" name_publicacion">Ligre el leon</p>
+              <p className=" hora_publicacion">Hace 16 horas</p>
             </section>
           </section>
 
-          <section className={styles.contenido_container}>
+          <section className="contenido_container">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
               sequi, omnis, assumenda explicabo, accusantium iure impedit
@@ -82,32 +82,32 @@ const profile = () => {
             </p>
           </section>
 
-          <section className={styles.publicacion_icons}>
-            <article className={styles.publi_icons_text}>
+          <section className=" publicacion_icons">
+            <article className=" publi_icons_text">
               <BiHeart size={24} />
               <p>0 likes</p>
             </article>
-            <article className={styles.publi_icons_text}>
+            <article className="publi_icons_text">
               <BiComment size={24} />
               <p>Comentarios</p>
             </article>
-            <article className={styles.publi_icons_text}>
+            <article className="publi_icons_text">
               <BiShare size={24} />
               <p>Compartir</p>
             </article>
           </section>
         </section>
 
-        <section className={styles.publicacion_container_general}>
-          <section className={styles.publicacion_container}>
-            <div className={styles.y}></div>
-            <section className={styles.names_container}>
-              <p className={styles.name_publicacion}>Ligre el leon</p>
-              <p className={styles.hora_publicacion}>Hace 16 horas</p>
+        <section className="publicacion_container_general">
+          <section className="publicacion_container">
+            <div className="yy"></div>
+            <section className="names_container">
+              <p className="name_publicacion">Ligre el leon</p>
+              <p className="hora_publicacion">Hace 16 horas</p>
             </section>
           </section>
 
-          <section className={styles.contenido_container}>
+          <section className="contenido_container">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
               sequi, omnis, assumenda explicabo, accusantium iure impedit
@@ -116,16 +116,16 @@ const profile = () => {
             </p>
           </section>
 
-          <section className={styles.publicacion_icons}>
-            <article className={styles.publi_icons_text}>
+          <section className="publicacion_icons">
+            <article className="publi_icons_text">
               <BiHeart size={24} />
               <p>0 likes</p>
             </article>
-            <article className={styles.publi_icons_text}>
+            <article className="publi_icons_text">
               <BiComment size={24} />
               <p>Comentarios</p>
             </article>
-            <article className={styles.publi_icons_text}>
+            <article className="publi_icons_text">
               <BiShare size={24} />
               <p>Compartir</p>
             </article>
