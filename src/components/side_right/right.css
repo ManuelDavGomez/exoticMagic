@@ -1,49 +1,73 @@
-.zzz {
+.right_container_general {
   background-color: gainsboro;
   position: fixed;
   right: 0;
   width: 16vw;
   top: 55px;
-  padding: 20px;
+  padding: 30px 20px 40px 20px;
   height: 100vh;
 
   display: none;
-
   box-shadow: -10px 0px 10px gainsboro;
 }
 
-@media (min-width: 850px) {
-  .zzz {
-    display: block;
-  }
+.searchers_bar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50px;
+  width: 100%;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.7);
 }
 
-@media (min-width: 900px) {
-  .zzz {
-    width: 18vw;
-  }
+.searchers_bar input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
 }
 
-@media (min-width: 950px) {
-  .zzz {
-    width: 20vw;
-  }
+.searchers_icon {
+  color: #1877f2;
+  cursor: pointer;
+  margin-right: 10px;
 }
 
 @media (min-width: 1000px) {
-  .zzz {
-    width: 21vw;
+  .right_container_general {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 20vw;
+  }
+
+  .right_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .right_list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
   }
 }
 
 @media (min-width: 1100px) {
-  .zzz {
-    width: 23vw;
+  .right_container_general {
+    width: 22vw;
   }
 }
 
 @media (min-width: 1500px) {
-  .zzz {
+  .right_container_general {
     transition: all 0s;
     width: 28vw;
     -webkit-transition: all 0s;
@@ -51,10 +75,14 @@
     -ms-transition: all 0s;
     -o-transition: all 0s;
   }
+
+  .searchers_bar {
+    width: 80%;
+  }
 }
 
 @media (min-width: 1700px) {
-  .zzz {
+  .right_container_general {
     transition: all 0s;
     width: 23vw;
     -webkit-transition: all 0s;
@@ -62,15 +90,23 @@
     -ms-transition: all 0s;
     -o-transition: all 0s;
   }
+
+  .searchers_bar {
+    width: 70%;
+  }
 }
 
 @media (min-width: 2000px) {
-  .zzz {
+  .right_container_general {
     transition: all 0s;
     width: 20vw;
     -webkit-transition: all 0s;
     -moz-transition: all 0s;
     -ms-transition: all 0s;
     -o-transition: all 0s;
+  }
+
+  .searchers_bar {
+    width: 50%;
   }
 }

@@ -1,48 +1,50 @@
-.xyz {
+.left_container_general {
   background-color: gainsboro;
   position: fixed;
   left: 0;
   width: 16vw;
   top: 55px;
-  padding: 20px;
+  padding: 30px 20px 40px 20px;
   height: 100vh;
 
   display: none;
   box-shadow: 10px 0px 10px gainsboro;
 }
 
-@media (min-width: 850px) {
-  .xyz {
-    display: block;
-  }
-}
-
-@media (min-width: 900px) {
-  .xyz {
-    width: 18vw;
-  }
-}
-
-@media (min-width: 950px) {
-  .xyz {
+@media (min-width: 1000px) {
+  .left_container_general {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
     width: 20vw;
   }
-}
 
-@media (min-width: 1000px) {
-  .xyz {
-    width: 21vw;
+  .left_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .left_list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
   }
 }
 
-@media (min-width: 1100px) {
-  .xyz {
-    width: 23vw;
+@media (min-width:1100px) {
+  .left_container_general{
+    width: 22vw;
   }
 }
 
 @media (min-width: 1500px) {
-  .xyz {
+  .left_container_general {
     transition: all 0s;
     width: 28vw;
     -webkit-transition: all 0s;
@@ -53,7 +55,7 @@
 }
 
 @media (min-width: 1700px) {
-  .xyz {
+  .left_container_general {
     transition: all 0s;
     width: 23vw;
     -webkit-transition: all 0s;
@@ -64,7 +66,7 @@
 }
 
 @media (min-width: 2000px) {
-  .xyz {
+  .left_container_general {
     transition: all 0s;
     width: 20vw;
     -webkit-transition: all 0s;
