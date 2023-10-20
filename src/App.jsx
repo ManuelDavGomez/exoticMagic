@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/Inicio/Home.jsx";
-import Perfil from "./pages/profile/profile.jsx";
+import Perfil from "./pages/profile/Profile.jsx";
 import Side_left from "./components/side_left/Side_left";
 import Side_right from "./components/side_right/Side_right";
 

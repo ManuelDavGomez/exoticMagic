@@ -1,5 +1,6 @@
 .banner_container {
   max-width: 540px;
+  height: 100%;
   display: block;
   margin: 0 auto;
   padding-top: 100px;
@@ -214,15 +215,15 @@
   }
 }
 
-@media (min-width:500px) {
-  .banner_container{
+@media (min-width: 500px) {
+  .banner_container {
     transition: all 0s;
     padding-top: 50px;
     -webkit-transition: all 0s;
     -moz-transition: all 0s;
     -ms-transition: all 0s;
     -o-transition: all 0s;
-}
+  }
 }
 
 @media (min-width: 540px) {
